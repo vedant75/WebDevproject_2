@@ -1,0 +1,56 @@
+body{
+	background-color: hsl(257, 40%, 49%);
+	color: white;
+	margin: 40px;
+	font-family: 'Poppins', sans-serif; 
+	background-image: url("images/bg-desktop.svg");
+	background-repeat: no-repeat;
+	background-size: 90%
+}
+
+.container{
+	height:400px;
+	width: 500px;
+	position: relative;
+	left: 1050px;
+	top: 250px;
+	padding:20px;
+}
+
+#head1{
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+
+#head2{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+#para{
+	font-weight: 500;
+	line-height: 20px;
+	margin-bottom: 50px;
+}
+
+.logo{
+	position: absolute;
+	top: 10%;
+	left: 16%;
+}
+
+.box{
+	position: absolute;
+	top: 33%;
+	left: 16%;
+}
+
+.button{
+	display: block;
+	width: 200px;
+	height: 3em;
+	border-radius: 2em;
+	color: hsl(257, 40%, 49%);
+	padding: 10px 25px;
+	font-size: 18px;
+}
